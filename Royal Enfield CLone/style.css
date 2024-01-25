@@ -160,29 +160,6 @@ html,body{
 .hero button:hover{
     scale: 0.95;
 }
-.hero h1{
-    text-shadow: 0px 0px 20px #0000005a;
-    margin: 2vw 4vw;
-    font-weight: 100;
-    position: absolute;
-    color: #e8e8e8;
-    text-transform: capitalize;
-    font-family: 'Streetwear';
-}
-.hero span{
-    /* font-weight: 700; */
-    /* -webkit-text-stroke-color: rgb(35, 35, 35); */
-    /* -webkit-text-stroke-width:1px ; */
-    color: #d62828;
-}
-.hero #herologo{
-    right: 4%;
-    /* background-color: #fff; */
-    color: #fff;
-    top: 10%;
-    height: 3vh;
-    position: absolute;
-}
 .info{
     text-align: left;
     right: 5%;
