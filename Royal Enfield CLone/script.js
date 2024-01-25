@@ -66,6 +66,20 @@ function scroll() {
 }
 scroll();
 
+let searchbar = document.querySelector(".nright #searchbar")
+let button = document.querySelector(".nright #searchbutton")
+let on = 0
+button.addEventListener("click",()=>{
+  if(on === 0){
+    searchbar.style.display = "block"
+    on = 1
+  }else{
+    searchbar.style.display = "none"
+    on = 0
+  }
+})
+
+
 
   gsap.to("#bikesvg",{
     scrollTrigger:{

@@ -88,12 +88,19 @@ html,body{
     text-decoration: none;
     color: #fff;
 }
-.nright>input{
+.nright>#searchbar{
+    padding: 0 2vw;
+    font-size: 1.3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #00e1ff;
     display: none;
+    z-index: 999;
+    text-transform: capitalize;
+    letter-spacing: 0.1vw;
     background-color: #0A0A0A;
     border: 1px solid red;
     border-radius: 5px;
-    width: 72vw;
+    width: 71vw;
     height: 6vh;
     left: 20%;
     position: absolute;
@@ -103,10 +110,14 @@ html,body{
     display: none;
     font-size: 7vw;
 }
-.nright  #search{
+.nright>button{
+    background-color: transparent;
+    border: none;
+}
+.nright  #searchbutton{
     font-weight: 100;
-    color: #fff;
-    font-size: 1.4vw;
+    color: #ffffff;
+    font-size: 1.5vw;
 }
 .nright img{
     width: 2vw;
