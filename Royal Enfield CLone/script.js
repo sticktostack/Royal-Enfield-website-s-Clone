@@ -78,9 +78,6 @@ button.addEventListener("click",()=>{
     on = 0
   }
 })
-
-
-
   gsap.to("#bikesvg",{
     scrollTrigger:{
       trigger:"#bikesvg",
@@ -90,3 +87,5 @@ button.addEventListener("click",()=>{
    duration:1,
   //  opacity:0,
   })
+
+  
